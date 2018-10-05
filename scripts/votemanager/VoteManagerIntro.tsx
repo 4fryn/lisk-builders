@@ -36,20 +36,12 @@ export default class VoteManagerTable extends Component<any, any> {
           text: 'Restore the tool to your original votes.'
         },
         {
+          selector: '#intro-change-btn',
+          text: 'Vote for a change by breaking the power of the Lisk cartels controlling more than 33% of the network.'
+        },
+        {
           selector: '#intro-unvote-btn',
           text: 'Unvote all delegates you currently vote for.'
-        },
-        {
-          selector: '#intro-wizard-btn',
-          text: 'Open the vote wizard to chose between maximum payouts, lisk contributors, or highest sharing delegates.'
-        },
-        {
-          selector: '#intro-selectpage-btn',
-          text: 'Select all delegates on the current page.'
-        },
-        {
-          selector: '#intro-deselectpage-btn',
-          text: 'Deselect all delegates on the current page.'
         },
         {
           selector: '#intro-import-btn',
