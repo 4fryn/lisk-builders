@@ -53,16 +53,22 @@ export default class VoteManagerControls extends Component<any, any> {
     this.props.store.setSelectedDelegates([]);
   }
 
-  setSelectedToSharers() {
-    const payoutsharers = _.uniq([...groups.gdt.data, ...groups.shw.data, ...groups.builders.data, ...groups.lig.data, ...groups.ascend.data, ...groups.dutchpool.data, "4fryn", "5an1ty", "acheng", "adrianhunter", "alepop", "anamix", "augurproject", "badman0316", "bioly", "bloqspace.io", "carbonara", "carolina", "cc001", "chamberlain", "communitypool", "corsaro", "crodam", "crolisk", "dakk", "devasive", "diamse", "eastwind_ja", "eclipsun", "elevate", "endro", "forger_of_lisk", "forrest", "gdtpool", "goldeneye", "gr33ndrag0n", "grajsondelegate", "grumlin", "hagie", "hirish", "hmachado", "honeybee", "iii.element.iii", "joel", "joo5ty", "kushed.delegate", "leo", "liberspirita", "liskascend", "liskgate", "liskit", "liskjp", "liskpoland.pl", "liskpool.top", "liskpool_com_01", "liskpro.com", "liskroad", "loveforever", "luiz", "luxiang7890", "minions", "moosty", "mrgr", "mrv", "nerigal", "nimbus", "ntelo", "ondin", "panzer", "philhellmuth", "phinx", "phoenix1969", "punkrock", "redsn0w", "robinhood", "samuray", "savetheworld", "seven", "sgdias", "shinekami", "slamper", "slasheks", "spacetrucker", "splatters", "stellardynamic", "tembo", "thepool", "tonyt908", "vekexasia", "veriform", "vi1son", "vipertkd", "vrlc92", "lisksnake", "ultrafresh", "moracle.network"]);
+  setSelectedToModerate() {
+    const payoutModerate = _.uniq([...groups.gdt.data, ...groups.shw.data, ...groups.builders.data, "4fryn", "5an1ty", "acheng", "adrianhunter", "alepop", "anamix", "augurproject", "badman0316", "bigtom", "bioly", "blackswan", "bloqspace.io", "carbonara", "carolina", "cc001", "chamberlain", "communitypool", "corsaro", "crodam", "crolisk", "dakk", "devasive", "diamse", "eastwind_ja", "eclipsun", "elevate", "endro", "forger_of_lisk", "forrest", "gdtpool", "goldeneye", "gr33ndrag0n", "grajsondelegate", "grumlin", "hagie", "hirish", "hmachado", "honeybee", "iii.element.iii", "jixie", "joel", "joo5ty", "kushed.delegate", "leo", "liberspirita", "liskascend", "liskgate", "liskit", "liskjp", "liskpoland.pl", "liskpool.top", "liskpool_com_01", "liskpro.com", "liskroad", "loveforever", "luiz", "luxiang7890", "minions", "moosty", "mrgr", "mrv", "nerigal", "nimbus", "ntelo", "ondin", "panzer", "philhellmuth", "phinx", "phoenix1969", "punkrock", "redsn0w", "robinhood", "samuray", "savetheworld", "seven", "sgdias", "shinekami", "slamper", "slasheks", "spacetrucker", "splatters", "stellardynamic", "tembo", "thepool", "tonyt908", "vekexasia", "veriform", "vi1son", "vipertkd", "vrlc92", "mac", "hua", "lisksnake", "ultrafresh", "moracle.network", "xujian", "will", "someonesomeone", "goodtimes", "zy1349"]);
     this.closeModal('wizard');
-    this.props.store.setSelectedDelegates(payoutsharers);
+    this.props.store.setSelectedDelegates(payoutModerate);
   }
 
-  setSelectedToContrib() {
-    const payoutcontrib = _.uniq([...groups.gdt.data, ...groups.shw.data, ...groups.builders.data, ...groups.lig.data, ...groups.ascend.data, ...groups.dutchpool.data, "4fryn", "5an1ty", "acheng", "adrianhunter", "alepop", "anamix", "augurproject", "badman0316", "bioly", "bloqspace.io", "carbonara", "carolina", "cc001", "chamberlain", "communitypool", "corsaro", "crodam", "crolisk", "dakk", "devasive", "diamse", "eastwind_ja", "eclipsun", "elevate", "endro", "forger_of_lisk", "forrest", "gdtpool", "goldeneye", "gr33ndrag0n", "grajsondelegate", "grumlin", "hagie", "hirish", "hmachado", "honeybee", "iii.element.iii", "joel", "joo5ty", "kushed.delegate", "leo", "liberspirita", "liskascend", "liskgate", "liskit", "liskjp", "liskpoland.pl", "liskpool.top", "liskpool_com_01", "liskpro.com", "liskroad", "loveforever", "luiz", "luxiang7890", "minions", "moosty", "mrgr", "mrv", "nerigal", "nimbus", "ntelo", "ondin", "panzer", "philhellmuth", "phinx", "phoenix1969", "punkrock", "redsn0w", "robinhood", "samuray", "savetheworld", "seven", "sgdias", "shinekami", "slamper", "slasheks", "spacetrucker", "splatters", "stellardynamic", "tembo", "thepool", "tonyt908", "vekexasia", "veriform", "vi1son", "vipertkd", "vrlc92", "lisksnake", "ultrafresh", "moracle.network"]);
+  setSelectedToRadical() {
+    const payoutRadical = _.uniq([...groups.gdt.data, ...groups.shw.data, ...groups.builders.data, ...groups.lig.data, ...groups.ascend.data, ...groups.dutchpool.data, "4fryn", "5an1ty", "acheng", "adrianhunter", "alepop", "anamix", "augurproject", "badman0316", "bioly", "bloqspace.io", "carbonara", "carolina", "cc001", "chamberlain", "communitypool", "corsaro", "crodam", "crolisk", "dakk", "devasive", "diamse", "eastwind_ja", "eclipsun", "elevate", "endro", "forger_of_lisk", "forrest", "gdtpool", "goldeneye", "gr33ndrag0n", "grajsondelegate", "grumlin", "hagie", "hirish", "hmachado", "honeybee", "iii.element.iii", "joel", "joo5ty", "kushed.delegate", "leo", "liberspirita", "liskascend", "liskgate", "liskit", "liskjp", "liskpoland.pl", "liskpool.top", "liskpool_com_01", "liskpro.com", "liskroad", "loveforever", "luiz", "luxiang7890", "minions", "moosty", "mrgr", "mrv", "nerigal", "nimbus", "ntelo", "ondin", "panzer", "philhellmuth", "phinx", "phoenix1969", "punkrock", "redsn0w", "robinhood", "samuray", "savetheworld", "seven", "sgdias", "shinekami", "slamper", "slasheks", "spacetrucker", "splatters", "stellardynamic", "tembo", "thepool", "tonyt908", "vekexasia", "veriform", "vi1son", "vipertkd", "vrlc92", "lisksnake", "ultrafresh", "moracle.network"]);
     this.closeModal('wizard');
-    this.props.store.setSelectedDelegates(payoutcontrib);
+    this.props.store.setSelectedDelegates(payoutRadical);
+  }
+
+  setSelectedToDestroy() {
+    const payoutDestroy = _.uniq([...groups.gdt.data, ...groups.shw.data, ...groups.builders.data, ...groups.lig.data, ...groups.ascend.data, ...groups.dutchpool.data, "4fryn", "5an1ty", "alepop", "anamix", "bioly", "bloqspace.io", "carbonara", "cc001", "communitypool", "corsaro", "dakk", "devasive", "diamse", "eclipsun", "elevate", "endro", "forrest", "gdtpool", "goldeneye", "gr33ndrag0n", "grumlin", "hagie", "hirish", "hmachado", "joel", "joo5ty", "kushed.delegate", "liberspirita", "liskascend", "liskgate", "liskit", "liskpoland.pl", "liskpool.top", "liskpool_com_01", "liskpro.com", "minions", "moosty", "mrv", "nerigal", "nimbus", "ntelo", "ondin", "philhellmuth", "phoenix1969", "punkrock", "redsn0w", "robinhood", "samuray", "sgdias", "shinekami", "slamper", "slasheks", "splatters", "stellardynamic", "tembo", "thepool", "tonyt908", "vekexasia", "vi1son", "vipertkd", "vrlc92", "lisksnake", "ultrafresh", "moracle.network"]);
+    this.closeModal('wizard');
+    this.props.store.setSelectedDelegates(payoutDestroy);
   }
 
   renderFilters() {
@@ -89,8 +95,8 @@ export default class VoteManagerControls extends Component<any, any> {
         <div className="divider" />
         <div className="btn-group btn-group-block">
           <button className="btn btn-secondary" id="intro-restore-btn" onClick={() => this.resetSelectedDelegates()}>Reset to current</button>
-          <button className="btn btn-secondary text-success" id="intro-change-btn" onClick={() => this.setSelectedToContrib()}>Vote for change</button>
-{/*        <button className="btn btn-secondary" id="intro-wizard-btn" onClick={() => this.openModal('wizard')}>Vote wizard</button> */}
+{/*       <button className="btn btn-secondary text-success" id="intro-change-btn" onClick={() => this.setSelectedToRadical()}>Vote for change</button> */}
+          <button className="btn btn-secondary text-success" id="intro-change-btn" onClick={() => this.openModal('wizard')}>Vote for change</button>
           <button className="btn btn-secondary" id="intro-unvote-btn" onClick={() => this.wipeSelectedDelegates()}>Unvote all</button>
         </div>
         <div className={`modal ${this.state.showWizardModal ? 'active' : ''}`} id="modal-id">
@@ -102,9 +108,11 @@ export default class VoteManagerControls extends Component<any, any> {
             </div>
             <div className="modal-body">
               <div className="content">
-                <button className="btn btn-secondary btn-block" onClick={() => this.setSelectedToSharers()}>Vote for highest shares</button>
+                <button className="btn btn-secondary btn-block text-success" onClick={() => this.setSelectedToModerate()}>Vote for a moderate change</button>
                 <div className="divider text-center" data-content="OR"></div>
-                <button className="btn btn-secondary btn-block" onClick={() => this.setSelectedToContrib()}>Vote for community contributors</button>
+                <button className="btn btn-secondary btn-block" onClick={() => this.setSelectedToRadical()}>Vote for a radical change</button>
+                <div className="divider text-center" data-content="OR"></div>
+                <button className="btn btn-secondary btn-block text-error" onClick={() => this.setSelectedToDestroy()}>Unvote all Elite</button>
               </div>
             </div>
           </div>
