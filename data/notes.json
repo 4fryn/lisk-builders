@@ -12,7 +12,7 @@
     "p":[
       "To get yourself added to the list you can submit a PR that edits data/delegates.json to the following GitHub repository: lisk-builders/lisk-builders. After that your proposal will be reviewed amongst all current members and approved / rejected based on what the majority decides.",
       "To help build your case, do not hesitate to join us on slack and say hi!",
-      "This list is maintained by 5an1ty and alepop."
+      "This list is maintained by 5an1ty, alepop, and 4fryn."
     ]
   },
   "note3": {
@@ -30,12 +30,12 @@
   },
   "note5": {
     "p": [
-      "This tool requires Lisk Nano to be installed. If you have not yet installed Nano, please do this first."
+      "This tool requires Lisk Nano or Lisk Hub to be installed. If you have not yet installed Hub, please do this first."
     ]
   },
   "note6": {
     "p": [
-      "Lisk.builders Voting Manager is brought to you by 5an1ty (GDT) & Alepop!"
+      "Lisk.builders Voting Manager is brought to you by 5an1ty and alepop; this fork is maintained by 4fryn."
     ]
   },
   "note7": {
