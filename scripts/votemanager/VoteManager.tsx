@@ -206,7 +206,7 @@ export default class VoteManager extends Component<any, any> {
               store={this.props.store}
             />
             <div className="divider" />
-            <p>When finished, send your changes to Lisk Nano by clicking the buttons below in sequence. You will get an overview of the votes you are sending in Nano before you actually submit the votes:</p>
+            <p>When finished, send your changes to Lisk Nano or Lisk Hub by clicking the buttons below in sequence. You will get an overview of the votes you are sending in Nano before you actually submit the votes:</p>
             <div id="intro-vote-section">
               { this.renderVoteButtons(voteData) }
             </div>

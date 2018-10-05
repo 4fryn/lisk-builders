@@ -53,7 +53,7 @@ export default class VoteManagerTable extends Component<any, any> {
         },
         {
           selector: '#intro-vote-btn',
-          text: 'After making changes to your votes, you will see clickable buttons here to send your votes to Lisk Nano in batches of 33 changes / button.'
+          text: 'After making changes to your votes, you will see clickable buttons here to send your votes to Lisk Nano or Lisk Hub in batches of 33 changes / button.'
         },
         {
           selector: '#intro-summary-btn',
@@ -61,7 +61,7 @@ export default class VoteManagerTable extends Component<any, any> {
         },
         {
           selector: '#intro-vote-section',
-          text: 'Do not hesitate to click the vote buttons, Lisk Nano will ask you to confirm before sending the transaction.'
+          text: 'Do not hesitate to click the vote buttons, Lisk Nano or Lisk Hub will ask you to confirm before sending the transaction.'
         }
       ]
     }

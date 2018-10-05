@@ -89,7 +89,7 @@ export default class VoteManagerControls extends Component<any, any> {
         <div className="divider" />
         <div className="btn-group btn-group-block">
           <button className="btn btn-secondary" id="intro-restore-btn" onClick={() => this.resetSelectedDelegates()}>Reset to current</button>
-          <button className="btn btn-secondary" id="intro-change-btn" onClick={() => this.setSelectedToContrib()}>Vote for change</button>
+          <button className="btn btn-secondary text-success" id="intro-change-btn" onClick={() => this.setSelectedToContrib()}>Vote for change</button>
 {/*        <button className="btn btn-secondary" id="intro-wizard-btn" onClick={() => this.openModal('wizard')}>Vote wizard</button> */}
           <button className="btn btn-secondary" id="intro-unvote-btn" onClick={() => this.wipeSelectedDelegates()}>Unvote all</button>
         </div>
