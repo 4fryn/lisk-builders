@@ -107,7 +107,6 @@
     "color": "bg-dark text-light",
     "data": [
       "gdtpool",
-      "4miners.net",
       "5an1ty",
       "alepop",
       "bioly",
@@ -138,7 +137,8 @@
       "splatters",
       "tembo",
       "vekexasia",
-      "vi1son"
+      "vi1son",
+      "hirish"
     ]
   },
   "shw": {
@@ -148,7 +148,7 @@
     "nobonus": [],
     "tooltip": "http://robinhood.liskpro.com",
     "color": "bg-vanilla text-light",
-    "data": ["robinhood", "liberspirita", "liskpro.com", "4fryn", "bitbanksy", "bloqspace.io"]
+    "data": ["robinhood", "liberspirita", "liskpro.com", "4fryn", "bloqspace.io", "phoenix1969"]
   },
   "lig": {
     "tag": "LIG",
@@ -175,7 +175,7 @@
     "nobonus": [],
     "tooltip": "https://liskascend.com/",
     "color": "bg-purple text-light",
-    "data": ["anamix", "gregorst", "kylefromohio", "goforlisk", "hirish", "nimbus", "moosty", "sdrpa", "roblad", "lisktrust", "slamper", "puredelta", "diamse"]
+    "data": ["anamix", "gregorst", "kylefromohio", "goforlisk", "nimbus", "moosty", "sdrpa", "roblad", "lisktrust", "slamper", "puredelta", "diamse"]
   },
   "builders": {
     "tag": "Builders",
@@ -184,7 +184,7 @@
     "nobonus": [],
     "tooltip": "Active contributors to lisk",
     "color": "bg-blue  text-light",
-    "data": ["liskit", "dakk", "vekexasia", "5an1ty", "cc001", "gr33ndrag0n", "mrv", "alepop", "4fryn", "carbonara", "liskpro.com", "joo5ty", "thepool", "bioly", "philhellmuth", "endro", "elevate", "bluedragon", "andrew", "liskpoland.pl"]
+    "data": ["liskit", "dakk", "vekexasia", "5an1ty", "cc001", "gr33ndrag0n", "mrv", "alepop", "4fryn", "carbonara", "liskpro.com", "joo5ty", "thepool", "bioly", "philhellmuth", "endro", "elevate", "bluedragon", "liskpoland.pl", "slamper", "tonyt908"]
   },
   "alepop5an1ty": {
     "tag": null,
