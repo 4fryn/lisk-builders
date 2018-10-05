@@ -20,7 +20,7 @@ import * as notes from '../../data/notes.json';
 import { client } from '../api';
 import '@lisk-builders/lisk-buttons';
 
-const toastText = 'Do you like this tool? Vote Lisk Builders!';
+const toastText = 'Do you like this tool? Consider unvoting Elite.';
 
 @observer
 export default class VoteManager extends Component<any, any> {
