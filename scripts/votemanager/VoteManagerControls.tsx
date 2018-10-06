@@ -108,11 +108,11 @@ export default class VoteManagerControls extends Component<any, any> {
             </div>
             <div className="modal-body">
               <div className="content">
-                <button className="btn btn-secondary btn-block text-success" onClick={() => this.setSelectedToModerate()}>Vote for a moderate change</button>
+                <button className="btn btn-secondary btn-block text-success" onClick={() => this.setSelectedToModerate()}>Vote for a moderate change (1 vote step)</button>
                 <div className="divider text-center" data-content="OR"></div>
-                <button className="btn btn-secondary btn-block" onClick={() => this.setSelectedToRadical()}>Vote for a radical change</button>
+                <button className="btn btn-secondary btn-block" onClick={() => this.setSelectedToRadical()}>Vote for a radical change (2 vote steps)</button>
                 <div className="divider text-center" data-content="OR"></div>
-                <button className="btn btn-secondary btn-block text-error" onClick={() => this.setSelectedToDestroy()}>Unvote all Elite</button>
+                <button className="btn btn-secondary btn-block text-error" onClick={() => this.setSelectedToDestroy()}>Unvote all Elite (3 vote steps)</button>
               </div>
             </div>
           </div>
