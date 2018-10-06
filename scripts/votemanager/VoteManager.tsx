@@ -3,7 +3,6 @@ import 'regenerator-runtime/runtime';
 import * as React from 'react';
 import { Component } from 'react';
 import { observer } from 'mobx-react';
-import Slack from '../Slack';
 import Container from '../Container';
 import Toast from '../Toast';
 import * as dposdata from '../../dpos-tools-data/lisk/pools.json';
@@ -254,9 +253,6 @@ export default class VoteManager extends Component<any, any> {
               </li>
             </ul>
           </div>
-        </Container>
-        <Container withMargin>
-          <Slack />
         </Container>
         <div className="bg-gray">
           <Container>

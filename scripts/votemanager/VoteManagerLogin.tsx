@@ -3,7 +3,6 @@ import { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import * as notes from '../../data/notes.json';
 import Note from '../Note';
-import Slack from '../Slack';
 import Container from '../Container';
 
 class VoteManagerLogin extends Component<any, any> {
@@ -50,9 +49,6 @@ class VoteManagerLogin extends Component<any, any> {
               <div className="panel-footer"></div>
             </div>
           </div>
-        </Container>
-        <Container withMargin>
-          <Slack />
         </Container>
         <div className="bg-gray">
           <Container>
