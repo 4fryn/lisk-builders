@@ -47,7 +47,7 @@ export default class NavBar extends Component<any, any> {
             <div className="column col-12">
               <header className="navbar">
                 <section className="navbar-section">
-                  <Link to="/votemanager" className="navbar-brand mr-10">{ title }</Link>
+                  <Link to="/" className="navbar-brand mr-10">{ title }</Link>
                 </section>
                 <section className="navbar-section">
                   <div className="show-md">
