@@ -23,7 +23,7 @@ class VoteManagerLogin extends Component<any, any> {
 
   handleSubmit(event) {
     event.preventDefault()
-    this.props.history.push(`/votemanager/${this.state.address}`);
+    this.props.history.push(`/${this.state.address}`);
   }
 
   render() {
