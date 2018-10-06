@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-const title = '{ alternate.vote.manager }';
+const title = 'unvote-manager 🧙‍♀️';
 export default class NavBar extends Component<any, any> {
 
   menu: any;
