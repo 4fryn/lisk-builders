@@ -1,10 +1,3 @@
-# Lisk.builders - Making Lisk better block by block
+# 🧙‍️ Lisk Unvote Manager - improving Lisk vote by vote
 
-Lisk.builders is a community of developers, entrepreneurs, public speakers that make it their mission to make lisk better day by day.
-
-The website presents you with a list of Delegates and easy ways to look up their activity and past contributions in addition to rewarding you for your votes with a lottery and a pool.
-
-# A complete list of lisk delegates that actively contribute towards improving Lisk!
-
-To add yourself to the list please submit a PR by modifying data/delegates.json with your information!
-_Make sure to read and accept the [CODE_OF_CONDUCT](https://github.com/lisk-builders/lisk-builders/blob/master/CODE_OF_CONDUCT.md) when deciding to partecipate with Lisk.builders_
+A tool that helps voters to maximise Lisk stake rewards in the times of cartels controlling the active forging delegate slots. Read more about the motivation using the unvote manager here: [medium.com/@4fryn/how-to-maximise-your-lisk-stake-rewards-cdcd2f5f4edd](https://medium.com/@4fryn/how-to-maximise-your-lisk-stake-rewards-cdcd2f5f4edd)
