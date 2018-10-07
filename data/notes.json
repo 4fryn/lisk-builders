@@ -30,17 +30,19 @@
   },
   "note5": {
     "p": [
-      "This tool requires Lisk Nano or Lisk Hub to be installed. If you have not yet installed Hub, please do this first."
+      "A tool that helps voters to maximise Lisk stake rewards in the times of cartels controlling the active forging delegate slots.",
+      "Read more about the motivation using the unvote manager here: medium.com/@4fryn/how-to-maximise-your-lisk-stake-rewards-cdcd2f5f4edd",
+      "This tool requires Lisk Hub to be installed. If you have not yet installed Hub, please do this first."
     ]
   },
   "note6": {
     "p": [
-      "Lisk.builders Voting Manager is brought to you by 5an1ty and alepop; this fork is maintained by 4fryn."
+      "The unvoting manager is maintained by 4fryn and was initially developed by 5an1ty and alepop for Lisk Builders: github.com/4fryn/unvote-manager"
     ]
   },
   "note7": {
     "p": [
-      "Sharing percentage data is provided by: https://github.com/vekexasia/dpos-tools-data"
+      "The sharing percentage data is provided by: github.com/vekexasia/dpos-tools-data"
     ]
   }
 }
