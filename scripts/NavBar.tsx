@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-const title = 'Lisk unvote-manager 🧙‍️';
+const title = '🧙‍️ Lisk Unvote Manager';
 export default class NavBar extends Component<any, any> {
 
   menu: any;

@@ -30,14 +30,12 @@
   },
   "note5": {
     "p": [
-      "A tool that helps voters to maximise Lisk stake rewards in the times of cartels controlling the active forging delegate slots.",
-      "Read more about the motivation using the unvote manager here: medium.com/@4fryn/how-to-maximise-your-lisk-stake-rewards-cdcd2f5f4edd",
-      "This tool requires Lisk Hub to be installed. If you have not yet installed Hub, please do this first."
+      "A tool that helps voters to maximise Lisk stake rewards in the times of cartels controlling the active forging delegate slots. Read more about the motivation using the unvote manager here: medium.com/@4fryn/how-to-maximise-your-lisk-stake-rewards-cdcd2f5f4edd"
     ]
   },
   "note6": {
     "p": [
-      "The unvoting manager is maintained by 4fryn and was initially developed by 5an1ty and alepop for Lisk Builders: github.com/4fryn/unvote-manager"
+      "This tool requires Lisk Hub to be installed. If you have not yet installed Hub, please do this first. The unvoting manager is maintained by 4fryn and was initially developed by 5an1ty and alepop for Lisk Builders: github.com/4fryn/unvote-manager"
     ]
   },
   "note7": {
