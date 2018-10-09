@@ -60,7 +60,7 @@ export default class VoteManagerControls extends Component<any, any> {
   }
 
   setSelectedToRadical() {
-    const payoutRadical = _.uniq([...groups.ascend.data, ...groups.builders.data, ...groups.dutchpool.data, ...groups.gdt.data, ...groups.indi.data, ...groups.lig.data, ...groups.shw.data, "acheng", "adrianhunter", "badman0316", "carolina", "chamberlain", "crodam", "eastwind_ja", "forger_of_lisk", "grajsondelegate", "honeybee", "iii.element.iii", "leo", "liskjp", "luxiang7890", "mrgr", "panzer", "phinx", "savetheworld", "seven", "someonesomeone", "spacetrucker", "will", "xujian"]);
+    const payoutRadical = _.uniq([...groups.ascend.data, ...groups.builders.data, ...groups.dutchpool.data, ...groups.gdt.data, ...groups.indi.data, ...groups.lig.data, ...groups.shw.data, "acheng", "adrianhunter", "badman0316", "carolina", "chamberlain", "crodam", "eastwind_ja", "forger_of_lisk", "grajsondelegate", "iii.element.iii", "leo", "liskjp", "luxiang7890", "mrgr", "panzer", "phinx", "savetheworld", "seven", "someonesomeone", "spacetrucker", "will", "xujian"]);
     this.closeModal('wizard');
     this.props.store.setSelectedDelegates(payoutRadical);
   }
