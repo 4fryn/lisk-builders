@@ -54,13 +54,13 @@ export default class VoteManagerControls extends Component<any, any> {
   }
 
   setSelectedToModerate() {
-    const payoutModerate = _.uniq([...groups.builders.data, ...groups.gdt.data, ...groups.shw.data, "acheng", "adrianhunter", "anamix", "augurproject", "badman0316", "bigtom", "blackswan", "bloqspace.io", "carolina", "chamberlain", "communitypool", "crodam", "crolisk", "devasive", "diamse", "eastwind_ja", "elonhan", "forger_of_lisk", "goodtimes", "grajsondelegate", "honeybee", "hua", "iii.element.iii", "jixie", "leo", "liskjp", "liskpool.top", "liskpool_com_01", "liskroad", "loveforever", "luiz", "luxiang7890", "mac", "moosty", "moracle.network", "mrgr", "nimbus", "panzer", "phinx", "samuray", "savetheworld", "seven", "shinekami", "someonesomeone", "spacetrucker", "stellardynamic", "ultrafresh", "veriform", "vipertkd", "vrlc92", "will", "xujian", "zy1349"]);
+    const payoutModerate = _.uniq([...groups.builders.data, ...groups.gdt.data, ...groups.shw.data, "acheng", "adrianhunter", "anamix", "augurproject", "badman0316", "bigtom", "blackswan", "bloqspace.io", "carolina", "chamberlain", "communitypool", "crodam", "crolisk", "devasive", "diamse", "eastwind_ja", "elonhan", "forger_of_lisk", "fulig", "goodtimes", "grajsondelegate", "honeybee", "hua", "iii.element.iii", "jixie", "leo", "liskjp", "liskpool.top", "liskpool_com_01", "liskroad", "loveforever", "luiz", "luxiang7890", "mac", "moosty", "moracle.network", "mrgr", "nimbus", "panzer", "phinx", "samuray", "savetheworld", "seven", "shinekami", "someonesomeone", "spacetrucker", "stellardynamic", "ultrafresh", "veriform", "vipertkd", "vrlc92", "will", "xujian", "zy1349"]);
     this.closeModal('wizard');
     this.props.store.setSelectedDelegates(payoutModerate);
   }
 
   setSelectedToRadical() {
-    const payoutRadical = _.uniq([...groups.ascend.data, ...groups.builders.data, ...groups.dutchpool.data, ...groups.gdt.data, ...groups.indi.data, ...groups.lig.data, ...groups.shw.data, "acheng", "adrianhunter", "badman0316", "carolina", "chamberlain", "crodam", "eastwind_ja", "forger_of_lisk", "grajsondelegate", "iii.element.iii", "leo", "liskjp", "luxiang7890", "mrgr", "panzer", "phinx", "savetheworld", "seven", "someonesomeone", "spacetrucker", "will", "xujian"]);
+    const payoutRadical = _.uniq([...groups.ascend.data, ...groups.builders.data, ...groups.dutchpool.data, ...groups.gdt.data, ...groups.indi.data, ...groups.lig.data, ...groups.shw.data, "acheng", "adrianhunter", "badman0316", "carolina", "chamberlain", "crodam", "eastwind_ja", "forger_of_lisk", "iii.element.iii", "leo", "liskjp", "luxiang7890", "mrgr", "panzer", "phinx", "savetheworld", "someonesomeone", "spacetrucker", "will", "xujian"]);
     this.closeModal('wizard');
     this.props.store.setSelectedDelegates(payoutRadical);
   }
