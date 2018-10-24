@@ -95,8 +95,7 @@ export default class VoteManagerControls extends Component<any, any> {
         <div className="divider" />
         <div className="btn-group btn-group-block">
           <button className="btn btn-secondary" id="intro-restore-btn" onClick={() => this.resetSelectedDelegates()}>Reset to current</button>
-{/*       <button className="btn btn-secondary text-success" id="intro-change-btn" onClick={() => this.setSelectedToRadical()}>Vote for change</button> */}
-          <button className="btn btn-secondary text-success" id="intro-change-btn" onClick={() => this.openModal('wizard')}>Vote for change</button>
+          <button className="btn btn-secondary text-success" id="intro-change-btn" onClick={() => this.openModal('wizard')}>Vote Wizard</button>
           <button className="btn btn-secondary" id="intro-unvote-btn" onClick={() => this.wipeSelectedDelegates()}>Unvote all</button>
         </div>
         <div className={`modal ${this.state.showWizardModal ? 'active' : ''}`} id="modal-id">
@@ -108,11 +107,11 @@ export default class VoteManagerControls extends Component<any, any> {
             </div>
             <div className="modal-body">
               <div className="content">
-                <button className="btn btn-secondary btn-block text-success" onClick={() => this.setSelectedToModerate()}>Vote for a moderate change (1 vote step)</button>
+                <button className="btn btn-secondary btn-block text-success" onClick={() => this.setSelectedToModerate()}>Vote for a moderate change (1 vote step, lowest payout)</button>
                 <div className="divider text-center" data-content="OR"></div>
-                <button className="btn btn-secondary btn-block" onClick={() => this.setSelectedToRadical()}>Vote for a radical change (2 vote steps)</button>
+                <button className="btn btn-secondary btn-block" onClick={() => this.setSelectedToRadical()}>Vote for a radical change (2 vote steps, medium payout)</button>
                 <div className="divider text-center" data-content="OR"></div>
-                <button className="btn btn-secondary btn-block text-error" onClick={() => this.setSelectedToDestroy()}>Unvote all Elite (3 vote steps)</button>
+                <button className="btn btn-secondary btn-block text-error" onClick={() => this.setSelectedToDestroy()}>Unvote all Elite (3 vote steps, maximum payout)</button>
               </div>
             </div>
           </div>
