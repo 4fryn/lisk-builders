@@ -59,14 +59,24 @@ export default class VoteManagerControls extends Component<any, any> {
     this.props.store.setSelectedDelegates(payoutModerate);
   }
 
+<<<<<<< HEAD
   setSelectedToRadical() {
     const payoutRadical = _.uniq([...groups.ascend.data, ...groups.builders.data, ...groups.dutchpool.data, ...groups.gdt.data, ...groups.indi.data, ...groups.lig.data, ...groups.shw.data, "acheng", "adrianhunter", "badman0316", "carolina", "chamberlain", "crodam", "eastwind_ja", "forger_of_lisk", "iii.element.iii", "leo", "liskjp", "luxiang7890", "mrgr", "panzer", "phinx", "savetheworld", "someonesomeone", "spacetrucker", "will", "xujian"]);
+=======
+  setSelectedToContrib() {
+    const payoutcontrib = _.uniq([...groups.gdt.data, ...groups.elite.data, ...groups.shw.data, ...groups.builders.data, 'stellardynamic']).filter(e => ['liskascend'].indexOf(e) === -1);
+>>>>>>> 7633b5ec9a4c6c0e17bb7aefbef57938deddcbf4
     this.closeModal('wizard');
     this.props.store.setSelectedDelegates(payoutRadical);
   }
 
+<<<<<<< HEAD
   setSelectedToDestroy() {
     const payoutDestroy = _.uniq([...groups.ascend.data, ...groups.builders.data, ...groups.dutchpool.data, ...groups.gdt.data, ...groups.indi.data, ...groups.lig.data, ...groups.shw.data]);
+=======
+  setSelectedToMaximum() {
+    const payoutmax = _.uniq([...groups.gdt.data, ...groups.elite.data, ...groups.shw.data, 'thepool', 'liskpool_com_01', 'shinekami', 'vipertkd', 'vrlc92', 'communitypool', 'devasive', 'samuray', 'stellardynamic']).filter(e => ['4fryn', 'liskascend'].indexOf(e) === -1);
+>>>>>>> 7633b5ec9a4c6c0e17bb7aefbef57938deddcbf4
     this.closeModal('wizard');
     this.props.store.setSelectedDelegates(payoutDestroy);
   }
